@@ -145,20 +145,3 @@ li{
     height: 40px;
     width: 40px;
 }
-.nav_selection{
-    visibility: hidden;
-}
-
-.nav_selection_not_hidden{
-    background-color: white;
-    color: #0d0d0d;
-    height: 50px;
-    width: 10%;
-    display: inline;
-    font-family: roboto;
-    /* margin: 0; */
-    line-height: 50px;
-    padding: 50px 15px 15px 15px;
-    margin-left: -3px;
-    margin-right: -3px
-}
