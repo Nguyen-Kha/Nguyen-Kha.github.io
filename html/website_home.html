@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+        <title>Website Home Page</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=NTR" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">  
+
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            #nav_top{
+                height: 50px;
+                width: 100%;
+            }
+            .top_nav_bar{
+                margin: 0;
+                background-color: #0d0d0d;
+                height: 50px;
+                width: 100%;
+                padding: 0;
+                text-align: center;
+                position: fixed;
+                z-index: 1000;
+            }
+            .nav_selection{
+                height: 50px;
+                width: 10%;
+                display: inline;
+                color: white;
+                font-family: roboto;
+                /* margin: 0; */
+                margin-left: -3px;
+                margin-right: -3px;
+                line-height: 50px;
+                padding: 50px 15px 15px 15px;
+            }
+            .nav_selection_active{
+                background-color: white;
+                color: #0d0d0d;
+                height: 50px;
+                width: 10%;
+                display: inline;
+                font-family: roboto;
+                /* margin: 0; */
+                line-height: 50px;
+                padding: 50px 15px 15px 15px;
+                margin-left: -3px;
+                margin-right: -3px
+            }
+            .nav_selection:hover{
+                background-color: white;
+                color: #0d0d0d;
+                transition-duration: 0.25s;
+            }
+            #content_home_picture{
+                width: 100%;
+                max-width: 100%;
+                max-height: 100%;
+                min-height: 100%;
+                object-fit: cover;
+                object-position: 30% 0;
+                margin: 0;
+                padding: 0;
+                opacity: 0.5;
+            }
+            #content_home{
+                margin: 0;
+                height: 575px;
+                background-color: black;
+                color: white;
+                width: 100%;
+                position: relative;
+            }
+            #name{
+                margin: 0;
+                text-align: center;
+                position: absolute;
+                width: 75%;
+                top: 35%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 48px;
+                font-family: Montserrat;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            #name h1{
+                margin: 0;
+                text-shadow: -0.5px 0 black, 0 1px black, 0.5px 0 black, 0 -1px black;
+            }
+            #name_description{
+                margin: 0;
+                text-align: center;
+                position: absolute;
+                width: 85%;
+                top: 65%;
+                font-size: 24px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: Montserrat;
+            }
+            #name_description h4{
+                margin: 0;
+                text-shadow: -0.5px 0 black, 0 1px black, 0.5px 0 black, 0 -1px black;
+            }
+            #carousel{
+                height: 746px;
+                background-color: grey;
+                width: 100%;
+            }
+            #carousel_picture_1{
+                width: 100%;
+                max-width: 100%;
+                max-height: 100%;
+                min-height: 100%;
+                object-fit: cover;
+                object-position: 30% 0;
+                margin: 0;
+                padding: 0;
+            }
+            .footer{
+                height: 100px;
+                width: 100%;
+                background-color: #0d0d0d;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            #contact_icons{
+                margin: 0;
+                display: inline;
+            }
+            .icon{
+                height: 40px;
+                width: 40px;
+                display: inline;
+                z-index: 1000; 
+            }
+            li{
+                list-style-type: none;
+            }
+            .footer_icons{
+                text-align: center;
+                display: inline;
+                position: relative;
+                top: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .footer_icons a{
+                height: 40px;
+                width: 40px;
+            }
+            .nav_selection{
+                visibility: hidden;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="top_logo">
+            <!--Picture of my logo here. Probably add some contact info or something-->
+            <!--Potentially just combine this with the nav-->
+        </div>
+
+        <div id="nav_top">
+            <!--Potential top navigation bar for type of pages. Add a sidebar for other pages in the current page-->
+            <ul class="top_nav_bar">
+                <!--Add the <a> tag for the links afer the <li> tag-->
+                <li class="nav_selection_active">Home</li>
+                <li class="nav_selection">About Me</li>
+                <li class="nav_selection">Applying to Waterloo Engineering</li>
+                <li class="nav_selection">What Is Systems Design Engineering</li>
+                <li class="nav_selection">Blog</li>
+                <li class="nav_selection">Contact</li>
+            </ul>
+        </div>
+
+        <div id="content_home">
+            <img id="content_home_picture" src="C:\Users\Kha\Documents\Programming\HTML+CSS\website\images\content_home_picture.JPG">;
+            <div id="name">
+                <h1>Hi, my name's Kha</h1>
+            </div>
+
+            <div id="name_description">
+                <h4>I'm a first year Systems Design Engineering student at the University of Waterloo
+                    <br>Feel free to browse my website to learn a little more about me
+                </h4>
+            </div>
+        </div>
+
+        <!--Carousel photos of me, pretty much to show off anything-->
+        <div id="carousel">
+            <img id="carousel_picture_1" src="C:\Users\Kha\Documents\Programming\HTML+CSS\website\images\DSC_0187.jpg">
+        </div>
+
+        <div class="footer">
+            <!--Icons that link to my social or contact info-->
+            <div id="icons">
+                <ul id="contact_icons">
+                    <li class="footer_icons"><a href="https://www.linkedin.com/in/kha"><img class="icon" src="C:/Users/Kha/Documents/Programming/HTML+CSS/website/images/linkedin_invert_colours.png"></a></li>
+                    <li class="footer_icons"><a href="https://github.com/Nguyen-Kha"><img class="icon" src="C:/Users/Kha/Documents/Programming/HTML+CSS/website/images/github_invert_colours.png"></a></li>
+                    <li class="footer_icons"><a href="nguyen.kha@outlook.com"><img class="icon" src="C:/Users/Kha/Documents/Programming/HTML+CSS/website/images/mail_invert_colours.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </body>
+</html>
