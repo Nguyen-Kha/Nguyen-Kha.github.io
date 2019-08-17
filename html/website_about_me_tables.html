@@ -106,20 +106,24 @@
             .technical_skills_logo{
                 margin-left: 100px;
                 margin-right: 20px;
-                width: 50%;
+                width: 30%;
                 height: 500px;
                 display: inline-block;
             }
             .technical_skills_description{
-                margin-left: 20px;
+                margin-left: 20px;d
                 margin-right: 100px;
                 width: 30%;
                 height: 500px;
                 display: inline-block;
             }
             #HTML_CSS_Logo{
-                max-width: 30%;
-                max-height: 30%;
+                max-width: 50%;
+                max-height: 50%;
+            }
+            #CPP_Logo{
+                max-height: 50%;
+                max-width: 50%;
             }
 
             /* ------------------- Footer ----------------- */
@@ -187,8 +191,7 @@
                 </p>
                 <p>
                     I'm a first year Systems Design Engineering student at the University of Waterloo. I currently 
-                    live in the University of Waterloo Place (UWP), I'm a part of the Engineering Ambassadors, and 
-                    I'm in the Engineering Society as the Exam Bank Director for this term. I also enjoy 
+                    live in the University of Waterloo Place (UWP). I also enjoy 
                     singing, playing the guitar, piano, badminton, critiquing food, and being a mentor to whoever needs me. 
                     If you want to 
                     know more about applying to Waterloo Engineering, life in general at UWaterloo, or 
@@ -207,100 +210,143 @@
         </section>
 
         <!--Section this off and make it the resume skills section-->
-        <section id="three">
-            <div id="technical_skills">
-                <div id="HTML_CSS">
-                    <div class="technical_skills_logo">
-                        <p>TEST</p>
-                        <img id="HTML_CSS_Logo" src="C:\Users\Kha\Documents\Programming\HTML+CSS\Nguyen-Kha.github.io\images\HTML_and_CSS_transparent.png">
-                    </div>
-                    <div class="technical_skills_description">
-                        <h2>HTML/CSS</h2>
-                        <!--Image of HTML/CSS-->
-                        <p>
-                            My use of HTML and CSS started through Vidyard by redesigning my team's Confluence page. 
-                            A large inspiration for this was because the built-in UI that Confluence provided was 
-                            not user-friendly, customizable, and did not have the functions that we as a team needed. 
-                            Using HTML, CSS, and a little bit of JS, I implemented a feature that allows employees to 
-                            directly send an email to the IT helpdesk through one click, a wiki page navigation, and 
-                            a section that features Vidyard's most read articles. All items created adhere to Vidyard's 
-                            design standard and accomodates for accessibility requirements.
-                        </p>
-                        <p>
-                            The website you are currently viewing was created using HTML and CSS. I am in the process 
-                            of learning JS to enhance the UX of my website. Other pages are still under construction!
-                        </p>
-                    </div>
-                </div>
-                <div id="C">
-                    <h2>C</h2>
-                    <!--Image of C-->
-                    <p>
-                        My programming journey began with C. My friends and I created a text-based role playing 
-                        game using structured programming concepts and the intergrated graphics library. I have 
-                        also used C to compete in the Canadian Computing Competition held by the University of 
-                        Waterloo.
-                    </p>
-                </div>
-                <div id="CPP">
-                    <h2>C++</h2>
-                    <!--Image of C++-->
-                    <p>
-                        SYDE 121 is our first programming course in Systems Design Engineering. This course was 
-                        taught through C++, and covered the fundamentals of structured programming, recursion, and 
-                        object oriented programming. 
-                    </p>
-                </div>
-                <div id="Solidworks">
-                    <h2>SolidWorks</h2>
-                    <!--Image of Solidworks-->
-                    <p>
-                        SYDE 101L is our Graphics course, which taught principles of mechanical sketching techniques 
-                        and 3D modelling through SolidWorks. 
-                    </p>
-                </div>
-                <div id="Atlassian">
-                    <!--Potentially hide this section cause it's not useful-->
-                    <!--Image of Atlassian-->
-                </div>
-            </div>
-        </section>
+       <!-- <section id="three"> -->
+            <table>
+                <tbody>
+                    <tr id="HTML_CSS">
+                        <td class="technical_skills_logo">
+                            <img id="HTML_CSS_Logo" src="C:\Users\Kha\Documents\Programming\HTML+CSS\Nguyen-Kha.github.io\images\HTML_and_CSS_transparent.png">
+                        </td>
+                        <td class="technical_skills_description">
+                            <h2>HTML/CSS</h2>
+                            <!--Image of HTML/CSS-->
+                            <p>
+                                My use of HTML and CSS started through Vidyard by redesigning my team's Confluence page. 
+                                A large inspiration for this was because the built-in UI that Confluence provided was 
+                                not user-friendly, customizable, and did not have the functions that we as a team needed. 
+                                Using HTML, CSS, and a little bit of JS, I implemented a feature that allows employees to 
+                                directly send an email to the IT helpdesk through one click, a wiki page navigation, and 
+                                a section that features Vidyard's most read articles. All items created adhere to Vidyard's 
+                                design standard and accomodates for accessibility requirements.
+                            </p>
+                            <p>
+                                The website you are currently viewing was created using HTML and CSS. I am in the process 
+                                of learning JS to enhance the UX of my website. Other pages are still under construction!
+                            </p>
+                        </td>
+                    </tr>
+                    <tr id="C">
+                        <td class="technical_skills_logo">
+                                <img id="C_Logo" src="C:\Users\Kha\Documents\Programming\HTML+CSS\Nguyen-Kha.github.io\images\C_transparent.png">
+                        </td>
+                        <td class="technical_skills_description">
+                            <h2>C</h2>
+                            <p>
+                                My programming journey began with C. My friends and I created a text-based role playing 
+                                game using structured programming concepts and the intergrated graphics library. I have 
+                                also used C to compete in the Canadian Computing Competition held by the University of 
+                                Waterloo.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr id="CPP">
+                        <td class="technical_skills_logo">
+                                <img id="CPP_Logo" src="C:\Users\Kha\Documents\Programming\HTML+CSS\Nguyen-Kha.github.io\images\CPP_transparent.png">
+                            </td>
+                        <td class="technical_skills_description">
+                            <h2>C++</h2>
+                            <p>
+                                SYDE 121 is our first programming course in Systems Design Engineering. This course was 
+                                taught through C++, and covered the fundamentals of structured programming, recursion, and 
+                                object oriented programming. 
+                            </p>
+                        </td>
+                    </tr>
+                    <tr id="Arduino">
+                        <td class="technical_skills_logo">
+                            <!--Image of the Arduino Logo-->
+                        </td>
+                        <td class="technical_skills_description">
+                            <h2>Arduino</h2>
+                            <p>
+                                As a part of our SYDE 192 Lab component, we used Arduinos to experiment with microcontrollers 
+                                and their overall use as a digital system.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr id="Solidworks">
+                        <td class="technical_skills_logo">&nbsp;</td>
+                        <td class="technical_skills_description">
+                            <h2>SolidWorks</h2>
+                            <p>
+                                SYDE 101L is our Graphics course, which taught principles of mechanical sketching techniques 
+                                and 3D modelling through SolidWorks. 
+                            </p>
+                        </td>  
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+        <!--</section> -->
+        <!--Parallax this to showcase projects-->
+        <h1>Projects (Temporary)</h1>
 
-        <div id="projects">
-            <div id="website">
-                <h2>Website</h2>
-                <p>
-                    The reason for creating this website stems from many different motivations. It mostly revolves 
-                    around my desire to communicate my ideas through an online medium to reach a wider audience, a 
-                    digitalization of my journal entries, and to showcase my web development skills. This site was 
-                    built using HTML and CSS, and hosted on GitHub. I am looking into implementing some backend to 
-                    transform it into a web application, or hosting it on AWS. I am in the process of writing 
-                    articles related to my time applying to Waterloo, and adjusting to life in Waterloo Engineering. 
-                    A major section of my website is dedicated to high school students coming from standard high 
-                    schools to maximize their application to Waterloo and to expand their view of the world.
-                </p>
-            </div>
-            <div id="sydeorder">
-                <h2>SYDEOrder</h2>
-                <p>
-                    This project was created at NewHacks with the help of Daniel Kim and Seth Morenos. SYDE Order 
-                    is a web application that allows business owners to effectively restock their inventory by 
-                    showing monthly customer purchase trends and determining an optimal restock quantity through 
-                    a computer generated algorithm. The UI implementation was created using Figma, the front end
-                    using HTML and CSS, and the back end using Python and Flask. 
-                </p>
-            </div>
-            <div id="lockornot">
-                <h2>LockOrNot</h2>
-                <p>
-                    LockOrNot is a project created at StarterHacks with Jack Zhang and (Jing Liu). It is a voice 
-                    activated smart lock that locks or unlocks the door when it hears your voice. This project 
-                    was built using C with the integration of Google's Text-To-Speech API, tested through a 
-                    Linux Virtual Machine, and constructed using an LED and breadboard.
-                </p>
-            </div>
-            <!--<div id="simon"></div>-->
-        </div>
+        <table id="projects_table">
+            <tbody>
+                <tr id="website">
+                    <td class="technical_skills_logo">
+
+                    </td>
+                    <td class="technical_skills_description">
+                        <h2>Website</h2>
+                        <p>
+                            The reason for creating this website stems from many different motivations. It mostly revolves 
+                            around my desire to communicate my ideas through an online medium to reach a wider audience, a 
+                            digitalization of my journal entries, and to showcase my web development skills. This site was 
+                            built using HTML and CSS, and hosted on GitHub. I am looking into implementing some backend to 
+                            transform it into a web application, or hosting it on AWS. I am in the process of writing 
+                            articles related to my time applying to Waterloo, and adjusting to life in Waterloo Engineering. 
+                            A major section of my website is dedicated to high school students coming from standard high 
+                            schools to maximize their application to Waterloo and to expand their view of the world.
+                        </p>
+                    </td>
+                </tr>
+                <tr id="sydeorder">
+                    <td class="technical_skills_logo">
+
+                    </td>
+                    <td class="technical_skills_description">
+                        <h2>SYDEOrder</h2>
+                        <p>
+                            This project was created at NewHacks with the help of Daniel Kim and Seth Morenos. SYDE Order 
+                            is a web application that allows business owners to effectively restock their inventory by 
+                            showing monthly customer purchase trends and determining an optimal restock quantity through 
+                            a computer generated algorithm. The UI implementation was created using Figma, the front end
+                            using HTML and CSS, and the back end using Python and Flask. 
+                        </p>
+                    </td>
+                </tr>
+                <tr id="lockornot">
+                    <td class="technical_skills_logo">
+
+                    </td>
+                    <td class="technical_skills_description">
+                        <h2>LockOrNot</h2>
+                        <p>
+                            LockOrNot is a project created at StarterHacks with Jack Zhang and (Jing Liu). It is a voice 
+                            activated smart lock that locks or unlocks the door when it hears your voice. This project 
+                            was built using C with the integration of Google's Text-To-Speech API, tested through a 
+                            Linux Virtual Machine, and constructed using an LED and breadboard.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Parallax-->
 
         <div id="experience">
             <div id="Vidyard">
@@ -351,10 +397,11 @@
                     I also offer input on AIFs. Multiple high school students have reached out to me to look 
                     over their supplementary applications. I have personally looked over more than 10 applications 
                     this year. I periodically offer advice and information through AMLOC (Applications, Materials, )
-                    (L, Opportunites, and C), a group of 20 000 people on Facebook that serves as a networking and 
+                    (Links, Opportunites, and C), a group of 20 000 people on Facebook that serves as a networking and 
                     professional advice for youth.
                 </p>
             </div>
+            <!--
             <div id="EngSoc">
                 <h2>Engineering Society</h2>
                 <p>
@@ -362,6 +409,7 @@
                     More information about my contribution is to come in the near future.
                 </p>
             </div>
+            -->
         </div>
 
         <div id="transition_to_hs_section"></div>

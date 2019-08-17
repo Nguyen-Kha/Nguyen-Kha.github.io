@@ -45,6 +45,7 @@ body{
     background-color: white;
     color: #0d0d0d;
     transition-duration: 0.25s;
+    cursor: pointer;
 }
 #content_home_picture{
     width: 100%;
@@ -56,6 +57,7 @@ body{
     margin: 0;
     padding: 0;
     opacity: 0.5;
+    
 }
 #content_home{
     margin: 0;
@@ -129,6 +131,7 @@ body{
     width: 40px;
     display: inline;
     z-index: 1000; 
+    cursor: pointer;
 }
 li{
     list-style-type: none;
