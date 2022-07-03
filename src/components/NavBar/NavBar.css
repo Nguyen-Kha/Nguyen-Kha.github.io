@@ -1,0 +1,11 @@
+.navList {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.navItem {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 1em;
+}
