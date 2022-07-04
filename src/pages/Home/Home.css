@@ -1,0 +1,10 @@
+.opener {
+    margin: 1em;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.opener_content {
+    margin: 2em;
+}
