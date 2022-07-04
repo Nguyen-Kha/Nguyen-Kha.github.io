@@ -1,12 +1,13 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Data from './pages/Data';
-import Fun from './pages/Fun';
-import Home from './pages/Home';
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import Data from './pages/Data/Data';
+import Fun from './pages/Fun/Fun';
+import Home from './pages/Home/Home';
 import Error404 from './pages/Error404';
 import {BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
             <Route path="*" element={<Navigate replace to="/404" />}/>
           </Routes>
         </Router>
-        <h1>Hello</h1>
+        <h1>HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello</h1>
+        <Footer />
     </div>
   );
 }
