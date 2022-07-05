@@ -2,7 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
-import Data from './pages/Data/Data';
+import Projects from './pages/Projects/Projects';
 import Fun from './pages/Fun/Fun';
 import Home from './pages/Home/Home';
 import Error404 from './pages/Error404';
@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/about" element={<About />}/>
-            <Route path="/data" element={<Data />}/>
+            <Route path="/projects" element={<Projects />}/>
             <Route path="/fun" element={<Fun />}/>
             <Route path="/contact" element={<Contact />}/>
             <Route path="/404" element={<Error404 />}/>
