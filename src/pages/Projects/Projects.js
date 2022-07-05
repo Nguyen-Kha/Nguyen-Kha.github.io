@@ -1,14 +1,15 @@
 import React from "react";
 import './Projects.css';
-import Card from "../../components/Card/Card";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
-function Data() {
+function Projects() {
     return(
         <div>
-            <h1>Data</h1>
-            <Card/>
+            <h1>Projects</h1>
+            <ProjectCard/>
+            <ProjectCard/>
         </div>
     );
 }
 
-export default Data;
+export default Projects;
