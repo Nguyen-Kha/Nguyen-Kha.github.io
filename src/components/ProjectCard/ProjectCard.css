@@ -1,0 +1,17 @@
+.project_card_container {
+    background-color: #FFFFFF;
+    margin: 1em 5em 1em 5em;
+    display: flex;
+    min-height: 10em;
+}
+
+.pcc_left {
+    padding: 1em;
+    width: 70%;
+}
+
+.pcc_right {
+    margin: 1em;
+    width: 30%;
+    background-color: #000000;
+}

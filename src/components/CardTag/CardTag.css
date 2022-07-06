@@ -1,0 +1,12 @@
+.tag {
+    max-height: 2em;
+    background-color: aqua;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.tag > p {
+    margin: 0em;
+}
