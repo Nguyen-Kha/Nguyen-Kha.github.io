@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import About from './pages/About/About';
+import About from './pages/Experience/Experience';
 import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
 import Fun from './pages/Fun/Fun';
@@ -16,7 +16,7 @@ function App() {
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="/about" element={<About />}/>
+            <Route path="/experience" element={<About />}/>
             <Route path="/projects" element={<Projects />}/>
             <Route path="/fun" element={<Fun />}/>
             <Route path="/contact" element={<Contact />}/>
