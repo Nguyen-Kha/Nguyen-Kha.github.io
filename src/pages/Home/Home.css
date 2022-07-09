@@ -1,10 +1,18 @@
 .opener {
-    margin: 1em;
+    margin: 10em;
     background-color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .opener_content {
     margin: 2em;
+    text-align: left;
+    width: 70%;
+}
+
+.opener_picture {
+    margin: 2em;
+    width: 30%;
+    background-color: #000000;
 }
