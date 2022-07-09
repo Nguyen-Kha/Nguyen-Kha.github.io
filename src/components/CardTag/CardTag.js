@@ -1,10 +1,10 @@
 import React from "react";
 import './CardTag.css'
 
-function CardTag() {
+function CardTag(props) {
     return(
         <div className="tag">
-            <p>Tag Here</p>
+            <p>{props.tag}</p>
         </div>
     );
 }
