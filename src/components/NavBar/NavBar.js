@@ -9,7 +9,7 @@ function NavBar() {
             <div className="navLogo">
                 <Link to="/">Kha</Link>
             </div>
-            <div className = 'navBar'>
+            {/* <div className = 'navBar'>
                 <ul className='navList'>
                     <li className='navItem'><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink></li>
                     <li className='navItem'><NavLink to="/experience" className={({ isActive }) => (isActive ? 'active' : '')}>Experience</NavLink></li>
@@ -17,7 +17,7 @@ function NavBar() {
                     <li className='navItem'><NavLink to="/fun" className={({ isActive }) => (isActive ? 'active' : '')}>Fun</NavLink></li>
                     <li className='navItem'><NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>Contact</NavLink></li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     );
 }
