@@ -1,14 +1,19 @@
 .opener {
-    margin: 10em;
+    /* margin: 10em; */
     background-color: #FFFFFF;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* justify-content: center; */
+    max-width: 800px;
+    min-height: 100dvh;
 }
 
 .opener_content {
     margin: 2em;
-    text-align: left;
-    width: 70%;
+    text-align: center;
+    /* width: 70%; */
 }
 
 .opener_picture {

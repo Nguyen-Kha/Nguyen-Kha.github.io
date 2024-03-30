@@ -13,19 +13,19 @@ function App() {
   return (
     <div className="App">
         <Router>
-          <NavBar />
+          {/* <NavBar /> */}
           <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="/experience" element={<About />}/>
+            {/* <Route path="/experience" element={<About />}/>
             <Route path="/projects" element={<Projects />}/>
             <Route path="/fun" element={<Fun />}/>
-            <Route path="/contact" element={<Contact />}/>
+            <Route path="/contact" element={<Contact />}/> */}
             <Route path="/404" element={<Error404 />}/>
             <Route path="*" element={<Navigate replace to="/404" />}/>
           </Routes>
         </Router>
-        <h1>HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello</h1>
-        <Footer />
+        {/* <h1>HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello</h1> */}
+        {/* <Footer /> */}
     </div>
   );
 }
