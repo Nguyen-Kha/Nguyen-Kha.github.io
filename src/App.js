@@ -5,7 +5,7 @@ import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
 import Fun from './pages/Fun/Fun';
 import Home from './pages/Home/Home';
-import Error404 from './pages/Error404';
+import Error404 from './pages/Error404/Error404';
 import {BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
         <Router>
-          {/* <NavBar /> */}
+          <NavBar />
           <Routes>
             <Route path="/" element={<Home />}/>
             {/* <Route path="/experience" element={<About />}/>
@@ -24,8 +24,7 @@ function App() {
             <Route path="*" element={<Navigate replace to="/404" />}/>
           </Routes>
         </Router>
-        {/* <h1>HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello</h1> */}
-        {/* <Footer /> */}
+        <Footer />
     </div>
   );
 }
