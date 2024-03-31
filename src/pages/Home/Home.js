@@ -31,10 +31,10 @@ function Home() {
                     
                 </div>
                 {/* <div className="opener_picture"></div> */}
-                <div className="opener_content">
+                {/* <div className="opener_content">
                     <p>Click on the link below for the class profile</p>
                     <a href="/SYDE_2023_Class_Profile_Official.pdf" target="_blank">SYDE 2023 Class Profile</a>
-                </div>
+                </div> */}
             </div>
         </>
         
