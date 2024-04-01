@@ -9,7 +9,7 @@ function Home() {
                 <div className="opener_content">
                     <h1>Hey, I'm Kha</h1>
                     
-                        I'm a software developer in the Data Engineering space. I'm interested in in Data Analytics, 
+                        I'm a software developer in the Data Engineering space. I'm interested in Data Analytics, 
                         Data Engineering, Data Science, and Machine Learning for decision making spaces. I 
                         studied Systems Design Engineering at the University of Waterloo, where I ran all things 
                         Social for the entire undergraduate program.
