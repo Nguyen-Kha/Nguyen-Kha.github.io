@@ -26,15 +26,14 @@ function Home() {
                         Connect with me on&nbsp;
                         <a href="https://www.linkedin.com/in/kha">LinkedIn</a>
                     <br></br>
-                        Or send me an&nbsp;
-                        <a href="mailto:kha.nguyen@uwaterloo.ca">email</a>
+                        Or send me an email at kha.nguyen [at] uwaterloo [dot] ca
                     
                 </div>
                 {/* <div className="opener_picture"></div> */}
-                {/* <div className="opener_content">
+                <div className="opener_content">
                     <p>Click on the link below for the class profile</p>
                     <a href="/SYDE_2023_Class_Profile_Official.pdf" target="_blank">SYDE 2023 Class Profile</a>
-                </div> */}
+                </div>
             </div>
         </>
         
