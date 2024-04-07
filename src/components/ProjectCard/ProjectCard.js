@@ -10,21 +10,21 @@ function ProjectCard(props) {
 
     return(
         <div className="project_card_container">
-            <div className="pcc_left">
+            <div className="pcc_item">
                 <h3>{!props.title ? 'Temp Title' : props.title}</h3>
                 <h6>{!props.date ? 'Temp Date' : props.date}</h6>
-                <p>{!props.blurb ? 'Temp Blurb' : props.blurb}</    p>
-                <div className="card_tag_container">
+                <p>{!props.blurb ? 'Temp Blurb' : props.blurb}</p>
+                {/* <div className="card_tag_container">
                     {props.tag1 ? <CardTag tag={props.tag1}/> : null}
                     {props.tag2 ? <CardTag tag={props.tag2}/> : null}
                     {props.tag3 ? <CardTag tag={props.tag3}/> : null}
                     {props.tag4 ? <CardTag tag={props.tag4}/> : null}
                     {props.tag5 ? <CardTag tag={props.tag5}/> : null}
-                    {/* <CardTag tag={tags}/> */}
-                </div>
+                    // <CardTag tag={tags}/>
+                </div> */}
                 
             </div>
-            <div className="pcc_right"></div>
+            {/* <div className="pcc_right"></div> no pictures lmao*/}
         </div>
     );
 }

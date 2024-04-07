@@ -5,7 +5,7 @@ import { ProjectCard1 } from './ProjectsData.js';
 
 function Projects() {
     return(
-        <div>
+        <div className="projects_home">
             <h1>Projects</h1>
             <ProjectCard {...ProjectCard1}/>
             <ProjectCard/>

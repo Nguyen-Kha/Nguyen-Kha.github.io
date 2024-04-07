@@ -1,10 +1,15 @@
 .project_card_container {
-    background-color: #FFFFFF;
-    margin: 1em 5em 1em 5em;
+    background-color: #f0f0f0;
+    margin: 1em 2em 1em 2em;
     display: flex;
     min-height: 10em;
 }
 
+.pcc_item{
+    
+}
+
+/* These used to be when i had blurb on left and picture on right. Stopping because I dont wanna deal with mobile rn */
 .pcc_left {
     padding: 1em;
     width: 70%;

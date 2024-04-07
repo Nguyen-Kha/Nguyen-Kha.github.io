@@ -1,0 +1,10 @@
+.blog_card_container {
+    background-color: #f0f0f0;
+    margin: 1em 2em 1em 2em;
+    display: flex;
+    min-height: 10em;
+}
+
+.bcc_item{
+    padding: 1em;
+}
